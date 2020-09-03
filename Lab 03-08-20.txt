@@ -1,0 +1,43 @@
+1.
+
+from numoy import*
+
+arr1=array([1,2,3,4,5,6])
+arr2=arr1
+print(arr2)
+
+output:
+[1 2 3 5 6]
+process finished with exit code 0
+
+2.reverse the array
+
+
+from numy import*
+ # The original Numpy array
+new _arr =array ([1,3,5,7,9])
+
+#reversing using rray slicing
+r s_arr = new_arr[:: -1]
+print("Resultant Reversed Array:", res_arr)
+
+output:
+
+Original Array is : [1 3 5 7 9]
+Resultant Reversed Array: [9 7 5 3 1]
+
+3.Duplicate
+
+list = [ 1,3,5,6,3,5,6,1]
+print("The original list is : " +str(list))
+
+res = []
+for i in list:
+	if i not in res:
+		res.append(i)
+	#print list after removal
+print("The list after removing duplicates : "+ str(res))
+
+output:
+original list is: [1,3,5,6,3,5,6,1]
+list after removing duplicates: [1,3,5,6]
